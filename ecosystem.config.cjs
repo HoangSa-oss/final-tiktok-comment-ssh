@@ -2,24 +2,22 @@ module.exports = {
   apps : [
     {
       name   : "post",
-      script : "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+      script : "npm",
       args:"run post",
   
     
     },
-  // {
-  //   name: "commentapiSSH",
-  //     script: "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
-  //     args: "run commentapi",
-  //   // interpreter: "bash"   
-  // },
+  {
+    name: "commentapiSSH",
+      script: "npm",
+      args: "run commentapi",
+  },
 
-  // {
-  //   name   : "push",
-  //   script : "npm",
-  //   args:"run api",
-  //   interpreter: "none"
+  {
+    name   : "push",
+    script : "npm",
+    args:"run api",
  
-  // },
+  },
 ]
 }
