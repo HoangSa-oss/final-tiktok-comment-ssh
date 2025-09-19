@@ -34,7 +34,7 @@ export const  workurl = async(i)=>{
     process.setMaxListeners(0);
     var browser = await puppeteer.launch({
         headless: true,
-        userDataDir: userDataDirPath,
+        // userDataDir: userDataDirPath,
         args: [
             // `--proxy-server=42.96.11.50:55555`,
             '--enable-features=NetworkService',
