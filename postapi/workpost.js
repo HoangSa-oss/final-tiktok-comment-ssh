@@ -33,7 +33,7 @@ export const  workurl = async(i)=>{
     await connectDB()
     process.setMaxListeners(0);
     var browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         userDataDir: userDataDirPath,
         args: [
             // `--proxy-server=42.96.11.50:55555`,
